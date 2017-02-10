@@ -34,10 +34,10 @@ variable.
 
 
 3. Read the time series data given the data file. For each time t, the time series
-follows the random distribution which is the sum of the two Gaussins.
-    a) Using the data, find out the parameters of both Gaussians.
+follows the Gaussian distribution.
+    a) Using the data, find out the parameters of the Gaussian.
 
     b) Create a similar data using fitted parameters and compare them using histograms.
-    (Hint: curve fit from scipy optimize)
+    (Hint: curve_fit, leastsq from scipy optimize)
 
-    c) Also calculate   power spectral density (PSD) of the given time series data.
+    c) Also calculate power spectral density (PSD) of the given time series data.
