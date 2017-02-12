@@ -1,6 +1,6 @@
 # Machine Learning Package for DIS2016
 
-This package is the collection of ipython notebooks used as the supporting material during the workshop
+This package is a collection of ipython notebooks used as the supporting material during the workshop
 
 ### Prerequisites
 
