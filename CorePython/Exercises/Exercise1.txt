@@ -1,0 +1,143 @@
+Warm Up Assignment
+===================
+===================
+
+Each of the programs here are rather simple. They are designed to test whether
+you have a basic understanding of a) how to approach programming logic, and b)
+how to translate that logic into the syntax of Python. An experienced programmer
+but new to Python should ideally finish this at a rate of 10 minutes per piece.
+
+Let's get started.
+
+Problem 1
+=========
+Write a program to generate N random integers, where the number N should be
+accepted from the user through the keyboard. You will need the "random" module
+for this. Can you find the suitable function inside this module that can serve
+your purpose?
+
+Comments: Remember, you must use iPython to explore the library and narrow down
+on a function.
+
+Problem 2
+=========
+You already have seen in the lectures a code on how to compute the mean of N
+numbers. Go ahead and modify that code to make it compute the median and the
+standard deviation.
+
+Comments: Remember, the median does involve a decision making logic.
+
+Problem 3
+=========
+Read the file 'students.txt' provided with this exercise. The file contains in
+the first column a student ID and the rest of the columns contain the name, age,
+gender and grade. Write a program to read this file into a dictionary with the
+student ID serving as a key and the other values as the 'value' in the form of a
+list. Next, ask the user for a student ID and if present, return a neatly
+formatted record of the student from the dictionary else a suitable message.
+
+Problem 4
+==========
+Write a program that accepts a number from the user and displays whether it is a
+prime or not. Ah! The classical problem. Must do!
+
+Problem 5
+==========
+Write a program to check whether a number or a text is a palindrome or not. The
+word or the number should be accepted from the user and an appropriate message
+displayed. Too easy in Python. You should be able to do it in a minute or two if
+you know the logic.
+
+Problem 6
+==========
+Write a program that accepts a file name and checks whether the file name is bad
+or not. A file is defined to be bad if it contains a space and other special
+symbols such as $,%,^,&,*,(,) and '.'.
+
+Problem 7
+==========
+Accept a number N from the user and generate the following series
+1
+2 2
+3 3 3
+4 4 4 4
+...
+N N N ... N times
+
+Problem 8
+==========
+Read numbers from a text file and print square of those numbe. You can make your
+own text file full of numbers for this.
+
+Comments: While a simple exercise, it demonstrates a subtle distinction of
+number numbers and string numbers.
+
+Problem 9
+==========
+You have a file which contains a bunch of readings from a thermometers.
+Unfortunately, depending on who added each reading, one writes it in Fahrenheit
+and the other writes in Celsius! And now we have a mixed data set. Thankfully,
+we are armed with the fact that these readings were all taken in a single month
+of 30 days. Thus there are 60 readings, two per each day. Now, write a program
+to make the units uniform.
+
+Problem 10
+==========
+
+Column Addition: Make a mock file containing two columns, say apparent magnitude
+and distance modulus. Write a program to create another file which has these two
+columns and a third which is the absolute magnitude. The tiresome amount of
+coding you will do should hopefully make you appreciate the need for having
+specialized modules in Python for handling tables and should also make you well
+versed with loops and string operations. Even if you do know, do not use any
+modules that specialize in table handling.
+
+Problem 11
+==========
+Bad File Names: Imagine that a whole directory of files has been given to you.
+Sadly, the person who created them used spaces in the file names. This is
+causing you a lot of inconvenience in using certain programs on them. Once and
+for all, you decide to end the story and rename all the files to replace spaces
+with underscores. Go ahead, write a program to do this. Remember, the program
+should be able to recurse into sub-directories. You will need the "os" and
+"os.path" modules for this. Optional: Even apostrophes in file names is a bad
+idea. Can you extend the program to replace these with an underscore too?
+
+Problem 12
+==========
+Write a program that will translate a text into "rövarspråket"
+(Swedish for "robber's language"). That is, double every consonant and place an
+occurrence of "o" in between. For example, translate("this is fun") should
+return the string "tothohisos isos fofunon". The text may be accepted through a
+file or through user input from a console. The choice is left to the solver of
+the exercise.
+
+Problem 13
+==========
+Saving lots of web pages using Python - yes, that's what you will do.  Given
+text file contains a list of urls and file names to be saved in your machine.
+Write a python code to read one url at a time, download and save it to hardisk
+with proper filename. (You will need to use the module urllib)
+
+Comment: The key idea that is being illustrated here is that Python has a vast
+toolset. You must be willing to dig into the documentation and learn how to use
+it.
+
+Problem 14
+==========
+Two files, each containing a list of items should be accepted by your program
+via command line and then the output should comprise of the following table
+
+Number of unique words in A | Number of unique words in B
+No. Words in A not in B | No. of Words in B not in A
+No. Words Common | No. of Words
+List of Common Words
+
+Comment: You will want to explore the set datatype in Python to ease this
+exercise. But if you should choose to define your own way without exploring the
+set datatype, you are welcome.
+
+Problem 15
+==========
+
+
