@@ -1,0 +1,43 @@
+# Exercises with pandas
+
+1. Read "planets.csv" using pandas to create DataFrame/Table with the exoplanet
+data.
+    a) Find out various methods used to detect exoplanets. So the dataframe
+    based on detection method and masses of the exoplanets, Also then split the
+    the dataframe into many, one for each detection method.
+
+    b) For each of the dataframe corresponding to different detection methods,
+    arrange exoplanets in ascending order of there masses.
+    Combine these multiple dataframes into one preserving the order. Compare
+    both the sorted dataframes.
+
+    c) Find out all the parent stars having exoplanet with mass larger than 1
+    jupiter mass, radius larger than jupiter radius. Plot the mass-radius plot
+    for these particular parent stars with error bars
+
+    (To understand splitting, indexing, hierarchical indexing, groupby, pivot_tables etc)
+    (Help:
+
+2. Write a function to calculate cubic polynomial over some range of the independent
+variable.
+    a) The the data and recover(fit) the coefficients.
+
+    b) Now add standard gaussian noise. Again fit the coefficients.
+
+    c) Change the amplitude of the noise to add to the data and plot how it
+
+    affects the recovery of the coefficients.
+    d) Now try to fit the cubic polynimial data with quadratic polynomial.
+
+    Find out the distance between the fit and actual data.
+    (Hint: polyfit)
+
+
+3. Read the time series data given the data file. For each time t, the time series
+follows the Gaussian distribution.
+    a) Using the data, find out the parameters of the Gaussian.
+
+    b) Create a similar data using fitted parameters and compare them using histograms.
+    (Hint: curve_fit, leastsq from scipy optimize)
+
+    c) Also calculate power spectral density (PSD) of the given time series data.
