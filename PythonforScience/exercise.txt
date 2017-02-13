@@ -55,3 +55,11 @@ follows the Gaussian distribution.
     b) Create a similar data using fitted parameters and compare them using histograms.
 
     c) Also calculate power spectral density (PSD) of the given time series data.
+
+
+4. Verify central limit theorem by adding 2, 5, 10, 20, 30 iid chi square variables.
+    a) Also try to estimate the parameters of the distribution of these additions.
+
+    b) Compare the variations of the different distribution from the actual distribution
+    you are expecting from the fit.
+
