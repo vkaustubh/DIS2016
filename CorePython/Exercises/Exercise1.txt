@@ -140,4 +140,9 @@ set datatype, you are welcome.
 Problem 15
 ==========
 
+Read the data.csv is file (comma sepearted value type) containing data values
+seperated by commas for different stars. Read the file and print the following
+information about each star:  RA, Dec and P (polarization). 
 
+Hint. You may use the split function to make a list for each line of the file
+and then extract Ra, Dec and polarization value from the list. 
