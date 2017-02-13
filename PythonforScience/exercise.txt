@@ -57,9 +57,13 @@ follows the Gaussian distribution.
     c) Also calculate power spectral density (PSD) of the given time series data.
 
 
-4. Verify central limit theorem by adding 2, 5, 10, 20, 30 iid chi square variables.
+4. Verify central limit theorem by adding 2, 5, 20, 50, 100 iid chi square variables
+and considering sample of at least 1000.
     a) Also try to estimate the parameters of the distribution of these additions.
 
     b) Compare the variations of the different distribution from the actual distribution
     you are expecting from the fit.
 
+    c) Do the same thing for uniform distribution.
+
+    d) Does all of the above make any sense? Why?
