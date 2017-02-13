@@ -139,5 +139,7 @@ set datatype, you are welcome.
 
 Problem 15
 ==========
-
+Write a function to calculate factorial of any natural number. A function should
+take natural number as an argument. Also try doing the same thing using recursion
+of a function. Verify that various ways of doing this gives the correct answer.
 
