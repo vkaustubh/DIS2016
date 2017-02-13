@@ -16,7 +16,21 @@ data.
     for these particular parent stars with error bars
 
     (To understand splitting, indexing, hierarchical indexing, groupby, pivot_tables etc)
-    (Help:
+    (Help: http://pandas.pydata.org/pandas-docs/stable/merging.html;
+    http://pandas.pydata.org/pandas-docs/stable/10min.html;
+    http://pandas.pydata.org/pandas-docs/version/0.18.1/visualization.html;
+    also matplotlib)
+
+    (Required col names:
+    methods = "pl_discmethod"
+    host star = "pl_host"
+    planet mass (in 'Jupiter Mass' units) = "pl_bmassj"
+    planet mass (in 'Jupiter Mass' units) upper/lower error limits = "pl_bmassjerr1"/"pl_bmassjerr2"
+    host star mass (in Solar mass units) = "st_mass"
+    host star mass (in Solar mass units) upper/lower error limits= "st_masserr1"/"st_masserr2"
+    host star radius (in Solar radias units) = "st_rad"
+    host star mass (in Solar mass units) upper/lower error limits= "st_radserr1"/"st_raderr2")
+
 
 2. Write a function to calculate cubic polynomial over some range of the independent
 variable.
@@ -36,8 +50,8 @@ variable.
 3. Read the time series data given the data file. For each time t, the time series
 follows the Gaussian distribution.
     a) Using the data, find out the parameters of the Gaussian.
+    (Hint: curve_fit, leastsq from scipy optimize)
 
     b) Create a similar data using fitted parameters and compare them using histograms.
-    (Hint: curve_fit, leastsq from scipy optimize)
 
     c) Also calculate power spectral density (PSD) of the given time series data.
