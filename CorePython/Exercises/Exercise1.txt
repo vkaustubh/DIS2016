@@ -139,10 +139,16 @@ set datatype, you are welcome.
 
 Problem 15
 ==========
+<<<<<<< HEAD
 
 Read the data.csv is file (comma sepearted value type) containing data values
 seperated by commas for different stars. Read the file and print the following
 information about each star:  RA, Dec and P (polarization). 
+=======
+Write a function to calculate factorial of any natural number. A function should
+take natural number as an argument. Also try doing the same thing using recursion
+of a function. Verify that various ways of doing this gives the correct answer.
+>>>>>>> b8aeeb824dcfee186ae6fc0b8b9e08e574640e8a
 
 Hint. You may use the split function to make a list for each line of the file
 and then extract Ra, Dec and polarization value from the list. 
