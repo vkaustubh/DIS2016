@@ -154,3 +154,22 @@ Write a function to calculate factorial of any natural number. A function should
 take natural number as an argument. Also try doing the same thing using recursion
 of a function. Verify that the various ways of doing this give the correct
 answer.
+
+Problem 17
+===========
+
+The 'os' library has a wide variety of functions and can be used to do many diverse
+tasks. To illustrate that, perform the following task using os library:
+RBPLJ0324+3410 is a folder containing many files. List all of the files in
+the directory and rename them according to their size in a manner convenient
+to you.
+
+Hint: You may use sort function to reorder lists.
+
+Problem 18
+===========
+
+Create a library of functions to convert polar coordinates to Cartesian
+coordinates and vice versa. Write a program that asks the user for r and Theta and 
+in return prints the x and y coordinates. 
+
