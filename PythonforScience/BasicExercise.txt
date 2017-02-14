@@ -1,0 +1,26 @@
+Simple Numpy Assignments : Use specific single numpy fuctions to do these.
+
+1. Create a vector with values ranging from 0 to 8 and display in reverse order.
+Construct a 3x3 matrix using the same input. 
+
+2. Create a 4x4 identity matrix. Also, get the indices of non-zero element. 
+
+3. Write a program which can accept a number from the user to create a 3x3
+matrix whose elements are the same number.
+
+4. Create a 2x2 matrix generated with random number.
+
+5. Generate the following matrices. (Hint : see the patterns and check for
+words)
+
+a) [[0 0 0 0 0] [1 0 0 0 0] [0 2 0 0 0] [0 0 3 0 0] [0 0 0 4 0]]
+
+b) [[0 1 0 1] [1 0 1 0] [0 1 0 1] [1 0 1 0]]
+ 
+6. Construct a rank 3 matrix and print the first element of each dimension.
+
+7. Write a program to generate the vector [9, 12, 15, 18, 21] and then build a
+new vector with 3 consecutive zeros interleaved between each value.
+
+8. Write a program to generate 5x5 matrix and display it excluding the first and
+last row and the first and last column of the matrix.
