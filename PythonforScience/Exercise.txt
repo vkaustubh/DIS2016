@@ -2,16 +2,16 @@
 
 1. Write a function to calculate cubic polynomial over some range of the independent
 variable.
-    a) The the data and recover(fit) the coefficients.
+    a) Generate the data and recover (fit) the coefficients.
 
     b) Now add standard gaussian noise. Again fit the coefficients.
 
     c) Change the amplitude of the noise to add to the data and plot how it
-
     affects the recovery of the coefficients.
-    d) Now try to fit the cubic polynimial data with quadratic polynomial.
 
+    d) Now try to fit the cubic polynomial data with quadratic polynomial.
     Find out the distance between the fit and actual data.
+
     (Hint: polyfit)
 
 
@@ -20,7 +20,7 @@ follows the Gaussian distribution.
     a) Using the data, find out the parameters of the Gaussian.
     (Hint: curve_fit, leastsq from scipy optimize)
 
-    b) Create a similar data using fitted parameters and compare them using histograms.
+    b) Create similar data using fitted parameters and compare them using histograms.
 
     c) Also calculate power spectral density (PSD) of the given time series data.
 
@@ -45,7 +45,7 @@ data.
     the dataframe into many, one for each detection method.
 
     b) For each of the dataframe corresponding to different detection methods,
-    arrange exoplanets in ascending order of there masses.
+    arrange exoplanets in ascending order of their masses.
     Combine these multiple dataframes into one preserving the order. Compare
     both the sorted dataframes.
 
