@@ -152,4 +152,5 @@ Problem 16
 
 Write a function to calculate factorial of any natural number. A function should
 take natural number as an argument. Also try doing the same thing using recursion
-of a function. Verify the various ways of doing this gives the correct answer.
+of a function. Verify that the various ways of doing this give the correct
+answer.
